@@ -1,0 +1,84 @@
+body{
+    background-color: gray;
+}
+*{
+    margin: 0em;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+}
+
+.wrapper{
+    color: white;
+    background-color: black;
+    height: 5em;
+    line-height: 5em;
+    width: 95%;
+    margin: auto;
+    
+}
+#project-name, nav{
+    display: inline;
+}
+nav{
+    float: right;
+}
+a{
+    color: white;
+}
+
+.nav-option{
+    display: inline;
+    padding-left: 2em;
+}
+
+/* footer */
+footer{
+    position: absolute;
+    bottom: 0em;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 4em;
+    line-height: 4em;
+}
+section{
+    position: relative;
+    top: 2.5em;
+    background-color: white;
+    width: 40em;
+    margin: auto;
+    height: 30em;
+    
+}
+#instructions{
+    position: absolute;
+    top: 2.5em;
+    width: 35em;
+    padding-left: 1em;
+}
+
+form{
+    width: fit-content;
+    margin: auto;
+    padding-top: 6em;
+    text-align: center;
+}
+input{
+    height: 2.5em;
+    display: block;
+    width: 20em;
+    text-align: center;
+}
+.btnSubmit{
+    height: 3em;
+}
+input, .btnSubmit{
+    margin-top: 0.5em;
+}
+
+
